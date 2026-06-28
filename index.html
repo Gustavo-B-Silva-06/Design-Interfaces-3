@@ -14,6 +14,9 @@
     <meta property="og:image" content="https://seusite.github.io/img/logo.png">
     <meta property="og:type" content="website">
 
+    <link rel="preload" as="image" href="img/logo.webp">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" as="style">
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
@@ -24,7 +27,7 @@
 <body id="topo">
 
     <header class="container">
-        <img src="img/logo.webp" alt="Logotipo de um computador antigo" class="logo">
+        <img src="img/logo.webp" alt="Logotipo de um computador antigo" class="logo" fetchpriority="high">
         <nav>
             <ul>
                 <li><a href="#historia">A História</a></li>
